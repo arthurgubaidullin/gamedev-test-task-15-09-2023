@@ -10,5 +10,8 @@
     "@nx/js": "^16.8.1",
     "@nx/workspace": "16.8.1",
     "nx": "16.8.1"
+  },
+  "dependencies": {
+    "pixi.js": "^7.2.4"
   }
 }
