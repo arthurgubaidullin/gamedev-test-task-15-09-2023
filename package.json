@@ -6,9 +6,8 @@
     "build": "npx nx run-many --target=build,test,lint --fix"
   },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "@nx/js": "16.8.1",
+    "@nx/js": "^16.8.1",
     "@nx/workspace": "16.8.1",
     "nx": "16.8.1"
   }
