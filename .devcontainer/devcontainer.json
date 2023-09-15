@@ -42,7 +42,8 @@
         "nrwl.angular-console",
         "eamodio.gitlens",
         "dbaeumer.vscode-eslint",
-        "EditorConfig.EditorConfig"
+        "EditorConfig.EditorConfig",
+        "firsttris.vscode-jest-runner"
       ]
     }
   },
