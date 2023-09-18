@@ -1,16 +1,16 @@
 {
   "name": "xy-key",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "xy-key/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "game-model/xy-key/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/xy-key",
-        "main": "xy-key/src/index.ts",
-        "tsConfig": "xy-key/tsconfig.lib.json",
+        "outputPath": "dist/game-model/xy-key",
+        "main": "game-model/xy-key/src/index.ts",
+        "tsConfig": "game-model/xy-key/tsconfig.lib.json",
         "assets": []
       }
     },
@@ -18,14 +18,17 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["xy-key/**/*.ts", "xy-key/package.json"]
+        "lintFilePatterns": [
+          "game-model/xy-key/**/*.ts",
+          "game-model/xy-key/package.json"
+        ]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "xy-key/jest.config.ts",
+        "jestConfig": "game-model/xy-key/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
