@@ -3,7 +3,7 @@ import * as Item from '@gamedev-test-task-15-09-2023/item';
 import * as RM from 'fp-ts/ReadonlyMap';
 import * as O from 'fp-ts/Option';
 import * as XYKey from '@gamedev-test-task-15-09-2023/xy-key';
-import * as Options from '@gamedev-test-task-15-09-2023/options';
+import * as Options from '@gamedev-test-task-15-09-2023/game-options';
 
 export type Board = ReadonlyMap<XYKey.XYKey, Item.Item>;
 

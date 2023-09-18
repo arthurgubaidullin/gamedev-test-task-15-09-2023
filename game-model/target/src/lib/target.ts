@@ -1,7 +1,7 @@
 import * as O from 'fp-ts/Option';
 import * as Direction from '@gamedev-test-task-15-09-2023/direction';
 import { absurd } from 'fp-ts/function';
-import { Options } from '@gamedev-test-task-15-09-2023/options';
+import { Options } from '@gamedev-test-task-15-09-2023/game-options';
 
 export interface Target {
   readonly x: number;

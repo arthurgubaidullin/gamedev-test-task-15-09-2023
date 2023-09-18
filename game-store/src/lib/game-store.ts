@@ -1,6 +1,6 @@
 import { atom, onMount } from 'nanostores';
 import * as Game from '@gamedev-test-task-15-09-2023/game-model';
-import * as Options from '@gamedev-test-task-15-09-2023/options';
+import * as Options from '@gamedev-test-task-15-09-2023/game-options';
 import * as O from 'fp-ts/Option';
 import { constVoid, pipe } from 'fp-ts/function';
 import * as Direction from '@gamedev-test-task-15-09-2023/direction';
