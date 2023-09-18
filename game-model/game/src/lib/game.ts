@@ -1,9 +1,9 @@
 import * as O from 'fp-ts/Option';
 import { pipe } from 'fp-ts/function';
-import * as Board from '@gamedev-test-task-15-09-2023/board';
-import * as Direction from '@gamedev-test-task-15-09-2023/direction';
-import * as Target from '@gamedev-test-task-15-09-2023/user-target';
-import * as Options from '@gamedev-test-task-15-09-2023/game-options';
+import * as Board from '@gamedev-test-task/board';
+import * as Direction from '@gamedev-test-task/direction';
+import * as Target from '@gamedev-test-task/user-target';
+import * as Options from '@gamedev-test-task/game-options';
 
 export interface Game {
   readonly board: Board.Board;

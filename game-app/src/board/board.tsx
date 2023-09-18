@@ -1,6 +1,6 @@
 import { Container } from '@pixi/react';
-import * as _Board from '@gamedev-test-task-15-09-2023/board';
-import { parse } from '@gamedev-test-task-15-09-2023/xy-key';
+import * as _Board from '@gamedev-test-task/board';
+import { parse } from '@gamedev-test-task/xy-key';
 import { Item } from '../board-item/item';
 import { CELL_SIZE } from '../game/constants';
 

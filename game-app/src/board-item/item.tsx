@@ -1,5 +1,5 @@
 import { Sprite } from '@pixi/react';
-import * as _Item from '@gamedev-test-task-15-09-2023/board-item';
+import * as _Item from '@gamedev-test-task/board-item';
 import { CELL_SIZE } from '../game/constants';
 
 const PADDING = 10;

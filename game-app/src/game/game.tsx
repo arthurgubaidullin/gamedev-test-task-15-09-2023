@@ -1,5 +1,5 @@
 import { Sprite, Stage } from '@pixi/react';
-import { useGame } from '@gamedev-test-task-15-09-2023/game-store';
+import { useGame } from '@gamedev-test-task/game-store';
 import { Target } from '../target/target';
 import { Board } from '../board/board';
 import { BOARD_WIDTH, BOARD_HEIGHT } from './constants';

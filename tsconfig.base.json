@@ -17,24 +17,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@gamedev-test-task-15-09-2023/board": ["game-model/board/src/index.ts"],
-      "@gamedev-test-task-15-09-2023/board-item": [
-        "game-model/item/src/index.ts"
-      ],
-      "@gamedev-test-task-15-09-2023/direction": [
-        "game-model/direction/src/index.ts"
-      ],
-      "@gamedev-test-task-15-09-2023/game-model": [
-        "game-model/game/src/index.ts"
-      ],
-      "@gamedev-test-task-15-09-2023/game-options": [
-        "game-model/options/src/index.ts"
-      ],
-      "@gamedev-test-task-15-09-2023/game-store": ["game-store/src/index.ts"],
-      "@gamedev-test-task-15-09-2023/user-target": [
-        "game-model/target/src/index.ts"
-      ],
-      "@gamedev-test-task-15-09-2023/xy-key": ["game-model/xy-key/src/index.ts"]
+      "@gamedev-test-task/board": ["game-model/board/src/index.ts"],
+      "@gamedev-test-task/board-item": ["game-model/item/src/index.ts"],
+      "@gamedev-test-task/direction": ["game-model/direction/src/index.ts"],
+      "@gamedev-test-task/game-model": ["game-model/game/src/index.ts"],
+      "@gamedev-test-task/game-options": ["game-model/options/src/index.ts"],
+      "@gamedev-test-task/game-store": ["game-store/src/index.ts"],
+      "@gamedev-test-task/user-target": ["game-model/target/src/index.ts"],
+      "@gamedev-test-task/xy-key": ["game-model/xy-key/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

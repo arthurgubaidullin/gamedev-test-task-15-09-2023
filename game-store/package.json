@@ -1,14 +1,14 @@
 {
-  "name": "@gamedev-test-task-15-09-2023/game-store",
+  "name": "@gamedev-test-task/game-store",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
     "nanostores": "^0.9.3",
-    "@gamedev-test-task-15-09-2023/game-model": "*",
+    "@gamedev-test-task/game-model": "*",
     "fp-ts": "^2.16.1",
-    "@gamedev-test-task-15-09-2023/direction": "*",
+    "@gamedev-test-task/direction": "*",
     "@nanostores/react": "^0.7.1",
-    "@gamedev-test-task-15-09-2023/game-options": "*"
+    "@gamedev-test-task/game-options": "*"
   },
   "type": "commonjs",
   "main": "./src/index.js",

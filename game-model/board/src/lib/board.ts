@@ -1,9 +1,9 @@
 import { pipe } from 'fp-ts/function';
-import * as Item from '@gamedev-test-task-15-09-2023/board-item';
+import * as Item from '@gamedev-test-task/board-item';
 import * as RM from 'fp-ts/ReadonlyMap';
 import * as O from 'fp-ts/Option';
-import * as XYKey from '@gamedev-test-task-15-09-2023/xy-key';
-import * as Options from '@gamedev-test-task-15-09-2023/game-options';
+import * as XYKey from '@gamedev-test-task/xy-key';
+import * as Options from '@gamedev-test-task/game-options';
 
 export type Board = ReadonlyMap<XYKey.XYKey, Item.Item>;
 

@@ -1,5 +1,5 @@
 {
-  "name": "@gamedev-test-task-15-09-2023/xy-key",
+  "name": "@gamedev-test-task/xy-key",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",

@@ -1,5 +1,5 @@
 import * as O from 'fp-ts/Option';
-import * as Direction from '@gamedev-test-task-15-09-2023/direction';
+import * as Direction from '@gamedev-test-task/direction';
 
 const LEFT_ARROW = { key: 'ArrowLeft', code: 37 } as const;
 const UP_ARROW = { key: 'ArrowUp', code: 38 } as const;

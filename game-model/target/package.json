@@ -1,11 +1,11 @@
 {
-  "name": "@gamedev-test-task-15-09-2023/user-target",
+  "name": "@gamedev-test-task/user-target",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
     "fp-ts": "^2.16.1",
-    "@gamedev-test-task-15-09-2023/direction": "*",
-    "@gamedev-test-task-15-09-2023/game-options": "*"
+    "@gamedev-test-task/direction": "*",
+    "@gamedev-test-task/game-options": "*"
   },
   "type": "commonjs",
   "main": "./src/index.js",

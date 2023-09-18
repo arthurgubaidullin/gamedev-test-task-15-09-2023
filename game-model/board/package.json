@@ -1,12 +1,12 @@
 {
-  "name": "@gamedev-test-task-15-09-2023/board",
+  "name": "@gamedev-test-task/board",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
     "fp-ts": "^2.16.1",
-    "@gamedev-test-task-15-09-2023/xy-key": "*",
-    "@gamedev-test-task-15-09-2023/game-options": "*",
-    "@gamedev-test-task-15-09-2023/board-item": "*"
+    "@gamedev-test-task/xy-key": "*",
+    "@gamedev-test-task/game-options": "*",
+    "@gamedev-test-task/board-item": "*"
   },
   "type": "commonjs",
   "main": "./src/index.js",
