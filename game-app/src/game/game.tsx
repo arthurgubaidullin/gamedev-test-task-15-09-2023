@@ -2,9 +2,7 @@ import { Sprite, Stage } from '@pixi/react';
 import { useGame } from '@gamedev-test-task-15-09-2023/game-store';
 import { Target } from '../target/target';
 import { Board } from '../board/board';
-
-const BOARD_WIDTH = 62 * 9;
-const BOARD_HEIGHT = 62 * 8;
+import { BOARD_WIDTH, BOARD_HEIGHT } from './constants';
 
 export function Game() {
   const game = useGame();
