@@ -22,6 +22,7 @@
       "@gamedev-test-task-15-09-2023/game-model": [
         "game-model/game/src/index.ts"
       ],
+      "@gamedev-test-task-15-09-2023/game-store": ["game-store/src/index.ts"],
       "@gamedev-test-task-15-09-2023/item": ["item/src/index.ts"],
       "@gamedev-test-task-15-09-2023/options": ["options/src/index.ts"],
       "@gamedev-test-task-15-09-2023/target": ["target/src/index.ts"],
