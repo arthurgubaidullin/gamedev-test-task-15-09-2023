@@ -16,7 +16,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@gamedev-test-task-15-09-2023/game-model": ["game-model/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
