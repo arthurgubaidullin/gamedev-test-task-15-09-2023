@@ -1,8 +1,10 @@
 {
   "name": "@gamedev-test-task-15-09-2023/source",
   "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {},
+  "license": "Attribution-NonCommercial-ShareAlike 4.0 International",
+  "scripts": {
+    "build": "npx nx run-many --target=build,test,lint --fix"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
