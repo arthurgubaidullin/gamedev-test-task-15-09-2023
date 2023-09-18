@@ -1,5 +1,9 @@
 import { Sprite } from '@pixi/react';
 import * as _Item from '@gamedev-test-task-15-09-2023/board-item';
+import { CELL_SIZE } from '../game/constants';
+
+const PADDING = 10;
+const ITEM_SIZE = CELL_SIZE - 10;
 
 export function Item(data: { item: _Item.Item }) {
   if (data.item.state === 'destroyed') {
@@ -8,10 +12,10 @@ export function Item(data: { item: _Item.Item }) {
   return (
     <Sprite
       image="/assets/crystal_yellow.png"
-      width={52}
-      height={52}
-      x={5}
-      y={2}
+      width={ITEM_SIZE}
+      height={ITEM_SIZE}
+      x={PADDING / 2}
+      y={PADDING / 5}
     />
   );
 }
