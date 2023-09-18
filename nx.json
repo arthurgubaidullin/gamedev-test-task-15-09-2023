@@ -57,6 +57,14 @@
         "style": "css",
         "linter": "eslint"
       }
+    },
+    "@nx/js": {
+      "library": {
+        "simpleName": true,
+        "unitTestRunner": "jest",
+        "minimal": true,
+        "testEnvironment": "jsdom"
+      }
     }
   }
 }
