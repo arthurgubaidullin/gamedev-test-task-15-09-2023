@@ -4,9 +4,9 @@
   "dependencies": {
     "tslib": "^2.3.0",
     "fp-ts": "^2.16.1",
-    "@gamedev-test-task-15-09-2023/item": "*",
     "@gamedev-test-task-15-09-2023/xy-key": "*",
-    "@gamedev-test-task-15-09-2023/game-options": "*"
+    "@gamedev-test-task-15-09-2023/game-options": "*",
+    "@gamedev-test-task-15-09-2023/board-item": "*"
   },
   "type": "commonjs",
   "main": "./src/index.js",

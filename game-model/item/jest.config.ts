@@ -1,10 +1,10 @@
 /* eslint-disable */
 export default {
-  displayName: 'item',
-  preset: '../jest.preset.js',
+  displayName: 'board-item',
+  preset: '../../jest.preset.js',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../coverage/item',
+  coverageDirectory: '../../coverage/game-model/item',
 };

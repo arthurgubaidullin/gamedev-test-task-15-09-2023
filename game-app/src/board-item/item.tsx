@@ -1,5 +1,5 @@
 import { Sprite } from '@pixi/react';
-import * as _Item from '@gamedev-test-task-15-09-2023/item';
+import * as _Item from '@gamedev-test-task-15-09-2023/board-item';
 
 export function Item(data: { item: _Item.Item }) {
   if (data.item.state === 'destroyed') {
