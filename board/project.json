@@ -1,16 +1,16 @@
 {
-  "name": "game-model",
+  "name": "board",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "game-model/src",
+  "sourceRoot": "board/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/game-model",
-        "main": "game-model/src/index.ts",
-        "tsConfig": "game-model/tsconfig.lib.json",
+        "outputPath": "dist/board",
+        "main": "board/src/index.ts",
+        "tsConfig": "board/tsconfig.lib.json",
         "assets": []
       }
     },
@@ -18,14 +18,14 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["game-model/**/*.ts", "game-model/package.json"]
+        "lintFilePatterns": ["board/**/*.ts", "board/package.json"]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "game-model/jest.config.ts",
+        "jestConfig": "board/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
