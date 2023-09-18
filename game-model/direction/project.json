@@ -1,16 +1,16 @@
 {
   "name": "direction",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "direction/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "game-model/direction/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/direction",
-        "main": "direction/src/index.ts",
-        "tsConfig": "direction/tsconfig.lib.json",
+        "outputPath": "dist/game-model/direction",
+        "main": "game-model/direction/src/index.ts",
+        "tsConfig": "game-model/direction/tsconfig.lib.json",
         "assets": []
       }
     },
@@ -18,14 +18,17 @@
       "executor": "@nx/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["direction/**/*.ts", "direction/package.json"]
+        "lintFilePatterns": [
+          "game-model/direction/**/*.ts",
+          "game-model/direction/package.json"
+        ]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "direction/jest.config.ts",
+        "jestConfig": "game-model/direction/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {

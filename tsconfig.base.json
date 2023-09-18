@@ -18,7 +18,9 @@
     "baseUrl": ".",
     "paths": {
       "@gamedev-test-task-15-09-2023/board": ["board/src/index.ts"],
-      "@gamedev-test-task-15-09-2023/direction": ["direction/src/index.ts"],
+      "@gamedev-test-task-15-09-2023/direction": [
+        "game-model/direction/src/index.ts"
+      ],
       "@gamedev-test-task-15-09-2023/game-model": [
         "game-model/game/src/index.ts"
       ],
