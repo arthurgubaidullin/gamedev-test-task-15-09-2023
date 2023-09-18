@@ -17,7 +17,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@gamedev-test-task-15-09-2023/board": ["board/src/index.ts"],
+      "@gamedev-test-task-15-09-2023/board": ["game-model/board/src/index.ts"],
       "@gamedev-test-task-15-09-2023/board-item": [
         "game-model/item/src/index.ts"
       ],
