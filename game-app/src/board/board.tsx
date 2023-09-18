@@ -2,12 +2,19 @@ import { Container } from '@pixi/react';
 import * as _Board from '@gamedev-test-task-15-09-2023/board';
 import { parse } from '@gamedev-test-task-15-09-2023/xy-key';
 import { Item } from '../board-item/item';
+import { CELL_SIZE } from '../game/constants';
 
 export function Board(data: { board: _Board.Board }) {
   const items = Array.from(data.board.entries()).map(([key, item]) => {
     const { x, y } = parse(key);
     return (
-      <Container key={key} x={x * 62} y={y * 62} width={62} height={62}>
+      <Container
+        key={key}
+        x={x * CELL_SIZE}
+        y={y * CELL_SIZE}
+        width={CELL_SIZE}
+        height={CELL_SIZE}
+      >
         <Item item={item} />
       </Container>
     );
