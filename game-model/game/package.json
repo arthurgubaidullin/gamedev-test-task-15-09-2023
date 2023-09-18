@@ -6,8 +6,8 @@
     "fp-ts": "^2.16.1",
     "@gamedev-test-task-15-09-2023/board": "*",
     "@gamedev-test-task-15-09-2023/direction": "*",
-    "@gamedev-test-task-15-09-2023/target": "*",
-    "@gamedev-test-task-15-09-2023/options": "*"
+    "@gamedev-test-task-15-09-2023/options": "*",
+    "@gamedev-test-task-15-09-2023/user-target": "*"
   },
   "type": "commonjs",
   "main": "./src/index.js",

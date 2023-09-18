@@ -2,7 +2,7 @@ import * as O from 'fp-ts/Option';
 import { pipe } from 'fp-ts/function';
 import * as Board from '@gamedev-test-task-15-09-2023/board';
 import * as Direction from '@gamedev-test-task-15-09-2023/direction';
-import * as Target from '@gamedev-test-task-15-09-2023/target';
+import * as Target from '@gamedev-test-task-15-09-2023/user-target';
 import * as Options from '@gamedev-test-task-15-09-2023/options';
 
 export interface Game {

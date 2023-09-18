@@ -1,5 +1,5 @@
 {
-  "name": "@gamedev-test-task-15-09-2023/target",
+  "name": "@gamedev-test-task-15-09-2023/user-target",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
