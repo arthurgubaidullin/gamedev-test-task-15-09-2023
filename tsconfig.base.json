@@ -18,7 +18,8 @@
     "baseUrl": ".",
     "paths": {
       "@gamedev-test-task-15-09-2023/board": ["board/src/index.ts"],
-      "@gamedev-test-task-15-09-2023/direction": ["direction/src/index.ts"]
+      "@gamedev-test-task-15-09-2023/direction": ["direction/src/index.ts"],
+      "@gamedev-test-task-15-09-2023/item": ["item/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
