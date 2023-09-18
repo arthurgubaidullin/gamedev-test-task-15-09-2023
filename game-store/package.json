@@ -7,7 +7,8 @@
     "@gamedev-test-task-15-09-2023/game-model": "*",
     "@gamedev-test-task-15-09-2023/options": "*",
     "fp-ts": "^2.16.1",
-    "@gamedev-test-task-15-09-2023/direction": "*"
+    "@gamedev-test-task-15-09-2023/direction": "*",
+    "@nanostores/react": "^0.7.1"
   },
   "type": "commonjs",
   "main": "./src/index.js",
